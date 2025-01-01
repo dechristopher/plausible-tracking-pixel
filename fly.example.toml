@@ -1,0 +1,30 @@
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+
+app = 'plausible-tracking-pixel'
+primary_region = 'bos' # changeme!
+
+[build]
+  build-target = 'prod'
+  [build.args]
+    GO_VERSION = '1.23.0'
+
+[env]
+  ENDPOINT = 'https://plausible.yoursite.com/api/event'
+  # CORS_ORIGINS = 'https://yoursite.com'
+  # VISITOR_IP_HEADER = 'Fly-Client-IP' # or change me to X-Forwarded-For
+  ADDRESS = ':8080'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ['app']
+  [http_service.concurrency]
+    type = 'requests'
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

@@ -1,0 +1,94 @@
+# flyctl launch added from .idea/.gitignore
+# Default ignored files
+.idea/shelf
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests
+# Datasource local storage ignored files
+.idea/dataSources
+.idea/dataSources.local.xml
+
+# flyctl launch added from vendor/github.com/gofiber/fiber/v2/.gitignore
+# Binaries for programs and plugins
+vendor/github.com/gofiber/fiber/v2/**/*.exe
+vendor/github.com/gofiber/fiber/v2/**/*.exe~
+vendor/github.com/gofiber/fiber/v2/**/*.dll
+vendor/github.com/gofiber/fiber/v2/**/*.so
+vendor/github.com/gofiber/fiber/v2/**/*.dylib
+
+# Test binary, built with `go test -c`
+vendor/github.com/gofiber/fiber/v2/**/*.test
+vendor/github.com/gofiber/fiber/v2/**/*.tmp
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+vendor/github.com/gofiber/fiber/v2/**/*.out
+
+# IDE files
+vendor/github.com/gofiber/fiber/v2/**/.vscode
+vendor/github.com/gofiber/fiber/v2/**/.DS_Store
+vendor/github.com/gofiber/fiber/v2/**/.idea
+
+# Misc
+vendor/github.com/gofiber/fiber/v2/**/*.fiber.gz
+vendor/github.com/gofiber/fiber/v2/**/*.fasthttp.gz
+vendor/github.com/gofiber/fiber/v2/**/*.pprof
+vendor/github.com/gofiber/fiber/v2/**/*.workspace
+
+# Dependencies
+vendor/github.com/gofiber/fiber/v2/vendor
+vendor/github.com/gofiber/fiber/v2/**/vendor
+vendor/github.com/gofiber/fiber/v2/Godeps
+
+# flyctl launch added from vendor/github.com/klauspost/compress/.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+vendor/github.com/klauspost/compress/**/*.o
+vendor/github.com/klauspost/compress/**/*.a
+vendor/github.com/klauspost/compress/**/*.so
+
+# Folders
+vendor/github.com/klauspost/compress/**/_obj
+vendor/github.com/klauspost/compress/**/_test
+
+# Architecture specific extensions/prefixes
+vendor/github.com/klauspost/compress/**/*.[568vq]
+vendor/github.com/klauspost/compress/**/[568vq].out
+
+vendor/github.com/klauspost/compress/**/*.cgo1.go
+vendor/github.com/klauspost/compress/**/*.cgo2.c
+vendor/github.com/klauspost/compress/**/_cgo_defun.c
+vendor/github.com/klauspost/compress/**/_cgo_gotypes.go
+vendor/github.com/klauspost/compress/**/_cgo_export.*
+
+vendor/github.com/klauspost/compress/**/_testmain.go
+
+vendor/github.com/klauspost/compress/**/*.exe
+vendor/github.com/klauspost/compress/**/*.test
+vendor/github.com/klauspost/compress/**/*.prof
+vendor/github.com/klauspost/compress/s2/cmd/_s2sx/sfx-exe
+
+# Linux perf files
+vendor/github.com/klauspost/compress/**/perf.data
+vendor/github.com/klauspost/compress/**/perf.data.old
+
+# gdb history
+vendor/github.com/klauspost/compress/**/.gdb_history
+
+# flyctl launch added from vendor/github.com/klauspost/compress/huff0/.gitignore
+vendor/github.com/klauspost/compress/huff0/huff0-fuzz.zip
+
+# flyctl launch added from vendor/github.com/valyala/fasthttp/.gitignore
+vendor/github.com/valyala/fasthttp/**/tags
+vendor/github.com/valyala/fasthttp/**/*.pprof
+vendor/github.com/valyala/fasthttp/**/*.fasthttp.gz
+vendor/github.com/valyala/fasthttp/**/*.fasthttp.br
+vendor/github.com/valyala/fasthttp/**/.idea
+vendor/github.com/valyala/fasthttp/**/.vscode
+vendor/github.com/valyala/fasthttp/**/.DS_Store
+vendor/github.com/valyala/fasthttp/**/vendor
+vendor/github.com/valyala/fasthttp/**/testdata/fuzz
+
+# flyctl launch added from vendor/golang.org/x/sys/unix/.gitignore
+vendor/golang.org/x/sys/unix/**/_obj
+vendor/golang.org/x/sys/unix/**/unix.test
+
+fly.toml
